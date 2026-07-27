@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentina Cambiaso · Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="b1">&lt;</span><span class="b2">VC</span><span class="b3">/&gt;</span></div>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#about">whoami</a>
+        <a href="#skills">stack</a>
+        <!-- <a href="#projects">projects</a> -->
+        <a href="#contact">contact</a>
+      </div>
+      <div class="lang" role="group" aria-label="Language / Idioma">
+        <button data-lang="en" class="active" aria-pressed="true">EN</button>
+        <button data-lang="es" aria-pressed="false">ES</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="hero-meta">
+      <span>Bahía Blanca · Buenos Aires · AR</span>
+      <span>valecambiaso<span class="at">@</span>gmail.com</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="br">&lt;</span><span id="typed"></span><span class="cursor"></span><span class="br">/&gt;</span>
+    </h1>
+    <div class="hero-rule"></div>
+    <div class="hero-name">VALENTINA CAMBIASO</div>
+    <div class="hero-role"
+      data-es='Ingeniera de Software <span class="dot">·</span> Lic. en Ciencias de la Computación'
+      data-en='Software Engineer <span class="dot">·</span> Bachelor of Computer Science'>
+      Software Engineer <span class="dot">·</span> Bachelor of Computer Science
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow"><span class="prompt">$</span> whoami <span class="caret">_</span></div>
+    <div class="about-grid reveal">
+      <div class="photo">
+        <div class="ph-icon">◍</div>
+        <div><span class="ph-code">&lt;img</span> src="foto.jpg" <span class="ph-code">/&gt;</span></div>
+        <div style="font-size:11px" data-es="tu foto acá" data-en="your photo here">your photo here</div>
+      </div>
+      <div class="about-text">
+        <p data-es='<strong>¡Hola! Soy Valentina.</strong> Ingeniera de software con base en Bahía Blanca, apasionada por construir cosas que funcionan bien y se sienten mejor.'
+           data-en='<strong>Hi! I&rsquo;m Valentina.</strong> A software engineer based in Bahía Blanca, passionate about building things that work well and feel even better.'>
+          <strong>Hi! I&rsquo;m Valentina.</strong> A software engineer based in Bahía Blanca, passionate about building things that work well and feel even better.
+        </p>
+        <p data-es='Me gusta el <span class="hl">código limpio</span>, resolver problemas difíciles y aprender algo nuevo en cada proyecto. Cuando no estoy programando, probablemente estoy tomando mate o leyendo sobre lo próximo que quiero construir.'
+           data-en='I love <span class="hl">clean code</span>, solving hard problems and learning something new in every project. When I&rsquo;m not coding, I&rsquo;m probably drinking mate or reading about the next thing I want to build.'>
+          I love <span class="hl">clean code</span>, solving hard problems and learning something new in every project. When I&rsquo;m not coding, I&rsquo;m probably drinking mate or reading about the next thing I want to build.
+        </p>
+        <p data-es='Actualmente abierta a nuevas oportunidades y colaboraciones.'
+           data-en='Currently open to new opportunities and collaborations.'>
+          Currently open to new opportunities and collaborations.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="eyebrow"><span class="prompt">$</span> cat stack.json <span class="caret">_</span></div>
+    <div class="terminal reveal">
+      <div class="term-bar">
+        <span class="dot-r"></span><span class="dot-y"></span><span class="dot-g"></span>
+        <span class="term-title">stack.json</span>
+      </div>
+      <div class="term-body">
+        <p class="out"><span class="cmd">languages</span> → <strong>JavaScript · TypeScript · Python · SQL</strong></p>
+        <p class="out"><span class="cmd">frontend</span> &nbsp;→ <strong>React · Next.js · HTML · CSS</strong></p>
+        <p class="out"><span class="cmd">backend</span> &nbsp;&nbsp;→ <strong>Node.js · Express · REST APIs</strong></p>
+        <p class="out"><span class="cmd">tools</span> &nbsp;&nbsp;&nbsp;&nbsp;→ <strong>Git · Docker · Postgres · Figma</strong></p>
+        <div class="chips">
+          <span class="chip"><span class="k">→</span> React</span>
+          <span class="chip"><span class="k">→</span> TypeScript</span>
+          <span class="chip"><span class="k">→</span> Node.js</span>
+          <span class="chip"><span class="k">→</span> Python</span>
+          <span class="chip"><span class="k">→</span> PostgreSQL</span>
+          <span class="chip"><span class="k">→</span> Docker</span>
+          <span class="chip"><span class="k">→</span> Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<!--<section id="projects">
+  <div class="wrap">
+    <div class="eyebrow"><span class="prompt">$</span> ls ~/projects <span class="caret">_</span></div>
+    <div class="projects">
+      <a class="card reveal" href="#">
+        <div class="card-top">
+          <span class="card-dir"><span class="slash">/</span>project-one</span>
+          <span class="card-link">↗</span>
+        </div>
+        <h3 data-es="Nombre del proyecto" data-en="Project name">Project name</h3>
+        <p data-es="Una línea sobre qué resuelve y por qué es interesante. Reemplazá con lo tuyo."
+           data-en="One line about what it solves and why it&rsquo;s interesting. Replace with your own.">
+          One line about what it solves and why it&rsquo;s interesting. Replace with your own.
+        </p>
+        <div class="tags"><span class="tag">react</span><span class="tag">node</span><span class="tag">postgres</span></div>
+      </a>
+      <a class="card reveal" href="#">
+        <div class="card-top">
+          <span class="card-dir"><span class="slash">/</span>project-two</span>
+          <span class="card-link">↗</span>
+        </div>
+        <h3 data-es="Otro proyecto" data-en="Another project">Another project</h3>
+        <p data-es="Descripción breve. Podés sumar link a GitHub o a un demo en vivo."
+           data-en="Short description. You can add a link to GitHub or a live demo.">
+          Short description. You can add a link to GitHub or a live demo.
+        </p>
+        <div class="tags"><span class="tag">typescript</span><span class="tag">nextjs</span></div>
+      </a>
+      <a class="card reveal" href="#">
+        <div class="card-top">
+          <span class="card-dir"><span class="slash">/</span>project-three</span>
+          <span class="card-link">↗</span>
+        </div>
+        <h3 data-es="Tercer proyecto" data-en="Third project">Third project</h3>
+        <p data-es="Algo que muestre variedad: una API, un bot, una herramienta, lo que sea."
+           data-en="Something that shows range: an API, a bot, a tool, whatever fits.">
+          Something that shows range: an API, a bot, a tool, whatever fits.
+        </p>
+        <div class="tags"><span class="tag">python</span><span class="tag">docker</span></div>
+      </a>
+      <a class="card reveal" href="#">
+        <div class="card-top">
+          <span class="card-dir"><span class="slash">/</span>project-four</span>
+          <span class="card-link">↗</span>
+        </div>
+        <h3 data-es="Cuarto proyecto" data-en="Fourth project">Fourth project</h3>
+        <p data-es="Dejá el más lindo para el final. Una imagen o gif acá suma un montón."
+           data-en="Save the best for last. An image or gif here goes a long way.">
+          Save the best for last. An image or gif here goes a long way.
+        </p>
+        <div class="tags"><span class="tag">react</span><span class="tag">tailwind</span></div>
+      </a>
+    </div>
+  </div>
+</section>-->
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow"><span class="prompt">$</span> echo $CONTACT <span class="caret">_</span></div>
+    <div class="terminal contact-term reveal">
+      <div class="term-bar">
+        <span class="dot-r"></span><span class="dot-y"></span><span class="dot-g"></span>
+        <span class="term-title">valentina — zsh</span>
+      </div>
+      <div class="term-body">
+        <p class="cmd"><span class="p">$</span><span data-es='echo "¿Trabajamos juntas?"' data-en='echo "Let&rsquo;s work together?"'>echo "Let&rsquo;s work together?"</span></p>
+        <p class="out" style="margin-top:8px"
+           data-es="Estoy a un mensaje de distancia. Escribime y charlamos."
+           data-en="I&rsquo;m just one message away. Reach out and let&rsquo;s talk.">
+          I&rsquo;m just one message away. Reach out and let&rsquo;s talk.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:valecambiaso@gmail.com" target="_blank" rel="noopener noreferrer"><span class="arrow">→</span>email</a>
+          <a href="https://github.com/valecambiaso" target="_blank" rel="noopener noreferrer"><span class="arrow">→</span>github</a>
+          <a href="https://www.linkedin.com/in/valentina-cambiaso/" target="_blank" rel="noopener noreferrer"><span class="arrow">→</span>linkedin</a>
+          <a href="#" target="_blank" rel="noopener noreferrer"><span class="arrow">→</span>cv.pdf</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="exit">exit 0</span> · Valentina Cambiaso · 2026 ·
+    <span data-es='hecho con <span style="color:var(--pink)">♥</span>'
+          data-en='made with <span style="color:var(--pink)">♥</span>'>made with <span style="color:var(--pink)">♥</span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
