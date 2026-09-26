@@ -2,14 +2,16 @@
 (function () {
   var lang = 'en'; // default language
   var buttons = document.querySelectorAll('.lang button');
-  var i18nEls = document.querySelectorAll('[data-es][data-en]');
+  var i18nEls = document.querySelectorAll('[data-i18n]');
+  var dict = window.I18N || {};
 
   function apply(next) {
     lang = next;
     document.documentElement.lang = next;
     i18nEls.forEach(function (el) {
-      var val = el.getAttribute('data-' + next);
-      if (val !== null) el.innerHTML = val;
+      var key = el.getAttribute('data-i18n');
+      var val = dict[next] && dict[next][key];
+      if (val !== undefined) el.innerHTML = val;
     });
     buttons.forEach(function (b) {
       var on = b.getAttribute('data-lang') === next;

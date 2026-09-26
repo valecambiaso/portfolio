@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Valentina Cambiaso · Software Engineer</title>
+<title>Valentina Cambiaso · Full Stack Developer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
@@ -40,11 +40,7 @@
     </h1>
     <div class="hero-rule"></div>
     <div class="hero-name">VALENTINA CAMBIASO</div>
-    <div class="hero-role"
-      data-es='Ingeniera de Software <span class="dot">·</span> Lic. en Ciencias de la Computación'
-      data-en='Software Engineer <span class="dot">·</span> Bachelor of Computer Science'>
-      Software Engineer <span class="dot">·</span> Bachelor of Computer Science
-    </div>
+    <div class="hero-role" data-i18n="hero.role"></div>
   </div>
 </header>
 
@@ -56,21 +52,12 @@
       <div class="photo">
         <div class="ph-icon">◍</div>
         <div><span class="ph-code">&lt;img</span> src="foto.jpg" <span class="ph-code">/&gt;</span></div>
-        <div style="font-size:11px" data-es="tu foto acá" data-en="your photo here">your photo here</div>
+        <div style="font-size:11px" data-i18n="about.photo"></div>
       </div>
       <div class="about-text">
-        <p data-es='<strong>¡Hola! Soy Valentina.</strong> Ingeniera de software con base en Bahía Blanca, apasionada por construir cosas que funcionan bien y se sienten mejor.'
-           data-en='<strong>Hi! I&rsquo;m Valentina.</strong> A software engineer based in Bahía Blanca, passionate about building things that work well and feel even better.'>
-          <strong>Hi! I&rsquo;m Valentina.</strong> A software engineer based in Bahía Blanca, passionate about building things that work well and feel even better.
-        </p>
-        <p data-es='Me gusta el <span class="hl">código limpio</span>, resolver problemas difíciles y aprender algo nuevo en cada proyecto. Cuando no estoy programando, probablemente estoy tomando mate o leyendo sobre lo próximo que quiero construir.'
-           data-en='I love <span class="hl">clean code</span>, solving hard problems and learning something new in every project. When I&rsquo;m not coding, I&rsquo;m probably drinking mate or reading about the next thing I want to build.'>
-          I love <span class="hl">clean code</span>, solving hard problems and learning something new in every project. When I&rsquo;m not coding, I&rsquo;m probably drinking mate or reading about the next thing I want to build.
-        </p>
-        <p data-es='Actualmente abierta a nuevas oportunidades y colaboraciones.'
-           data-en='Currently open to new opportunities and collaborations.'>
-          Currently open to new opportunities and collaborations.
-        </p>
+        <p data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+        <p data-i18n="about.p3"></p>
       </div>
     </div>
   </div>
@@ -86,19 +73,12 @@
         <span class="term-title">stack.json</span>
       </div>
       <div class="term-body">
-        <p class="out"><span class="cmd">languages</span> → <strong>JavaScript · TypeScript · Python · SQL</strong></p>
-        <p class="out"><span class="cmd">frontend</span> &nbsp;→ <strong>React · Next.js · HTML · CSS</strong></p>
-        <p class="out"><span class="cmd">backend</span> &nbsp;&nbsp;→ <strong>Node.js · Express · REST APIs</strong></p>
-        <p class="out"><span class="cmd">tools</span> &nbsp;&nbsp;&nbsp;&nbsp;→ <strong>Git · Docker · Postgres · Figma</strong></p>
-        <div class="chips">
-          <span class="chip"><span class="k">→</span> React</span>
-          <span class="chip"><span class="k">→</span> TypeScript</span>
-          <span class="chip"><span class="k">→</span> Node.js</span>
-          <span class="chip"><span class="k">→</span> Python</span>
-          <span class="chip"><span class="k">→</span> PostgreSQL</span>
-          <span class="chip"><span class="k">→</span> Docker</span>
-          <span class="chip"><span class="k">→</span> Git</span>
-        </div>
+        <p class="out" style="margin-top:8px" data-i18n="tech.stack"></p>
+        <p class="out"><span class="cmd">languages</span> → <strong>TypeScript · JavaScript · C# · SQL</strong></p>
+        <p class="out"><span class="cmd">frontend</span> &nbsp;→ <strong>React.js · Next.js · Angular · Tailwind CSS</strong></p>
+        <p class="out"><span class="cmd">backend</span> &nbsp;&nbsp;→ <strong>.NET Core · ASP.NET MVC · Payload CMS · NHibernate</strong></p>
+        <p class="out"><span class="cmd">database</span> &nbsp;→ <strong>PostgreSQL · SQL Server · Oracle</strong></p>
+        <p class="out"><span class="cmd">tools</span> &nbsp;&nbsp;&nbsp;&nbsp;→ <strong>Docker · Git · Azure DevOps · Jira · Cursor IDE</strong></p>
       </div>
     </div>
   </div>
@@ -171,12 +151,8 @@
         <span class="term-title">valentina — zsh</span>
       </div>
       <div class="term-body">
-        <p class="cmd"><span class="p">$</span><span data-es='echo "¿Trabajamos juntas?"' data-en='echo "Let&rsquo;s work together?"'>echo "Let&rsquo;s work together?"</span></p>
-        <p class="out" style="margin-top:8px"
-           data-es="Estoy a un mensaje de distancia. Escribime y charlamos."
-           data-en="I&rsquo;m just one message away. Reach out and let&rsquo;s talk.">
-          I&rsquo;m just one message away. Reach out and let&rsquo;s talk.
-        </p>
+        <p class="cmd"><span class="p">$</span><span data-i18n="contact.echo"></span></p>
+        <p class="out" style="margin-top:8px" data-i18n="contact.p"></p>
         <div class="contact-links">
           <a href="mailto:valecambiaso@gmail.com" target="_blank" rel="noopener noreferrer"><span class="arrow">→</span>email</a>
           <a href="https://github.com/valecambiaso" target="_blank" rel="noopener noreferrer"><span class="arrow">→</span>github</a>
@@ -190,12 +166,11 @@
 
 <footer>
   <div class="wrap">
-    <span class="exit">exit 0</span> · Valentina Cambiaso · 2026 ·
-    <span data-es='hecho con <span style="color:var(--pink)">♥</span>'
-          data-en='made with <span style="color:var(--pink)">♥</span>'>made with <span style="color:var(--pink)">♥</span></span>
+    <span data-i18n="footer.madeWith"></span>
   </div>
 </footer>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
