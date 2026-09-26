@@ -13,7 +13,12 @@ Personal site with a terminal aesthetic, available in English and Spanish.
 
 ```
 portfolio.html   page markup
-styles.css       styles
-script.js        language toggle, typing effect, scroll reveal
-i18n.js          English and Spanish copy
+css/
+  styles.css     styles
+js/
+  script.js      language toggle, typing effect, scroll reveal
+  i18n.js        English and Spanish copy
+assets/
+  valentina.jpg  profile photo
+  code.png       favicon
 ```
