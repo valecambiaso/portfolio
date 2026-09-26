@@ -125,15 +125,13 @@ section{padding:72px 0}
 .about-grid{display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:start}
 .photo{
   aspect-ratio:1;border-radius:12px;
-  border:1.5px dashed var(--panel-border);
+  border:1.5px solid var(--panel-border);
   background:var(--bg-soft);
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  gap:10px;color:var(--muted-dim);font-size:12px;text-align:center;
-  transition:border-color .3s,color .3s;
+  overflow:hidden;
+  transition:border-color .3s;
 }
-.photo:hover{border-color:var(--pink);color:var(--muted)}
-.photo .ph-icon{font-size:26px;color:var(--lime)}
-.photo .ph-code{color:var(--pink)}
+.photo:hover{border-color:var(--pink)}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
 .about-text p{color:var(--muted);margin-bottom:14px}
 .about-text strong{color:var(--text);font-weight:500}
 .about-text .hl{color:var(--lime)}
