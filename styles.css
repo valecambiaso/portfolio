@@ -66,11 +66,11 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .lang button:focus-visible{outline:2px solid var(--lime);outline-offset:-2px}
 
 /* ---------- HERO ---------- */
-header{padding:110px 0 90px;position:relative}
+header{padding:55px 0 45px;position:relative}
 .hero-meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted-dim);margin-bottom:60px;flex-wrap:wrap;gap:8px}
 .hero-meta .at{color:var(--lime)}
 .hero-title{
-  font-size:clamp(48px,11vw,120px);
+  font-size:clamp(36px,5.5vw,60px);
   font-weight:800;
   text-align:center;
   letter-spacing:-2px;
@@ -91,7 +91,7 @@ header{padding:110px 0 90px;position:relative}
 .hero-role .dot{color:var(--pink);margin:0 10px}
 
 /* ---------- SECTION SHELL ---------- */
-section{padding:72px 0}
+section{padding:36px 0}
 .eyebrow{
   color:var(--lime);font-size:13px;margin-bottom:26px;display:flex;align-items:center;gap:8px;
 }
